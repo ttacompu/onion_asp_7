@@ -406,4 +406,6 @@ FodyWeavers.xsd
 **/.vs/
 
 **/.suo
+**/CompanyEmployees/.vs
+**/CompanyEmployees/.vs/
 CompanyEmployees/.vs
