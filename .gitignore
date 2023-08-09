@@ -399,3 +399,5 @@ FodyWeavers.xsd
 
 # text file
 *.txt
+# .vs folders
+.vs
