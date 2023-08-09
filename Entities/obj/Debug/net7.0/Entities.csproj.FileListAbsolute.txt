@@ -1,0 +1,12 @@
+C:\asp.net_core_6\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\asp.net_core_6\Entities\bin\Debug\net7.0\Entities.dll
+C:\asp.net_core_6\Entities\bin\Debug\net7.0\Entities.pdb
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.dll
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\Entities.pdb
+C:\asp.net_core_6\Entities\obj\Debug\net7.0\ref\Entities.dll

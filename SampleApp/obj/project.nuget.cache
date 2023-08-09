@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8q+34/MpVTj8WLOWQvOpE/JD/NLpunJ4fX5v1n5y6ug+kRpyUBZbsP3QArZuBbbe6P+8Kd+nB7SW4tZjx2WtbA==",
+  "success": true,
+  "projectFilePath": "C:\\asp.net_core_6\\SampleApp\\SampleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ttaco\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
