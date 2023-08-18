@@ -33,6 +33,8 @@ namespace CompanyEmployee.Presentation.Controllers
         public IActionResult CreateEmployeeForCompany(Guid companyId, [FromBody] EmployeeForCreationDto employee) {
             if (employee is null)
                 return BadRequest("EmployerForCreationDto object is null");
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
 
             var employeeToReturn = _service.EmployeeService.CreateEmployeeForCompany(companyId, employee, trackChanges: false);
             return CreatedAtRoute("GetEmployeeForCompany", new { companyId, id = employeeToReturn.Id }, employeeToReturn);
@@ -41,7 +43,11 @@ namespace CompanyEmployee.Presentation.Controllers
         [HttpPut("{id:guid}")]
         public IActionResult UpdateEmployeeForCompany(Guid companyId, Guid id, [FromBody] EmployeeForUpdateDto employee)
         {
-            if (employee is null) return BadRequest("EmployeeForUpdateDto object is null");
+            if (employee is null) 
+                return BadRequest("EmployeeForUpdateDto object is null");
+
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
 
             _service.EmployeeService.UpdateEmployeeForCompany(companyId, id, employee, compTrackChanges: false, empTrackChanges: true);
 
